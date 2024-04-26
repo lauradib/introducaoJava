@@ -25,11 +25,27 @@ var produtos = ["Pen drive", "X salada", "chocolate", "Açai"];
 // comando de array
 produtos.push("bicicleta");
 
-//remover
+//remover fim
 produtos.pop();
+
+//adicionae no comeco
+produtos.unshift("pipa");
+
+//remover no comeco
+produtos.shift();
+
+//adicionar ou remover de acordo com o elemento
+produtos.splice(2, 1);
+var produtosNovos 
+
+
+
+
+
 
 produtos.forEach((elemento) => { 
     main.innerHTML += `<div class="posts">
     ${elemento}
     </div>`;
     });
+
