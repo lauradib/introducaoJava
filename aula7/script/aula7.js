@@ -57,7 +57,7 @@ function objectEntries(){
 
 }
 
-function subject(){
+function promise(){
 
 }
 
