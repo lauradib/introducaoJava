@@ -1,23 +1,25 @@
-// var teste = document.querySelector("#titulopagina")
+// var teste = document.querySelector("#tituloPana");
 // teste.innerHTML = "JQUERY É TOP"
 
-// teste () - imprime string
-// html () - imprime string interpretando comandos html
 
-var teste = $("#tituloPagina").text(`${2}`);
+// text() - imprime string
+// html() = Imprime string interpretando comandos html
+var teste = $("#tituloPagina").text(`JQUERY É TOP`);
 
 var texto = undefined;
 // document.querySelector("#textoPagina").innerHTML = texto;
 $("#textoPagina").html(texto);
 
-//var span = document.querySelector("#teste");
-// spam.addEventListeber("#click", function);
-// function () {}
-$("#teste").on("click", function(){
-    $("#teste").text("Acertou");
-    $("#teste").addClass("Teste");
-    $("#testeIagem").html("");
-   // $("#teste").removeClass("Teste");
-})
+// var span=document.querySelector("#teste");
+// span.addEventListener("click",function);
+// function(){}
 
-console.log(teste);
+$("#testeImagem").on("click", function(){
+    $("#teste").text("Acertou!");
+    $("#teste").addClass("teste");
+    $("#testeImagem").html(`<img src="..." alt="Uma imagem"> `);
+    // $("#teste").remove("teste");
+});
+
+
+console.log(teste)

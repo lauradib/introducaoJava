@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body {
+
+    background-color: #90b3b8;
+    color: #333;
+}
+
+.tabuada {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(163, 198, 218);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #2a4563;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #7794b3;
+}
+
+#tabuada2 {
+    margin-top: 20px;
+}
+
+
+body.dark {
+    background-color: rgb(48, 43, 43);
+    color: #fff;
+}
+
+.dark .tabuada {
+    background-color: #555;
+    color: #fff;
+}
+
+.dark button {
+    margin: 10px;
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+}
+
+.dark button:hover {
+    background-color: rgb(212, 211, 211);
+}
